@@ -1,0 +1,910 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0349AE32A0923427B2DC9A5B /* Pods_CicadaSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747634B252A80D15F959C540 /* Pods_CicadaSwiftDemo.framework */; };
+		1591DA4EFE3E397CE0D00C7B /* Pods_CicadaSwiftDemo_CicadaSwiftDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC3A87A49185841250202FC /* Pods_CicadaSwiftDemo_CicadaSwiftDemoUITests.framework */; };
+		3B74EC9B280BD8F600C1C594 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74EC9A280BD8F600C1C594 /* AppDelegate.swift */; };
+		3B74EC9D280BD8F600C1C594 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74EC9C280BD8F600C1C594 /* SceneDelegate.swift */; };
+		3B74EC9F280BD8F600C1C594 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74EC9E280BD8F600C1C594 /* ViewController.swift */; };
+		3B74ECA2280BD8F600C1C594 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B74ECA0280BD8F600C1C594 /* Main.storyboard */; };
+		3B74ECA4280BD8FF00C1C594 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B74ECA3280BD8FF00C1C594 /* Assets.xcassets */; };
+		3B74ECA7280BD8FF00C1C594 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B74ECA5280BD8FF00C1C594 /* LaunchScreen.storyboard */; };
+		3B74ECB2280BD90000C1C594 /* CicadaSwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74ECB1280BD90000C1C594 /* CicadaSwiftDemoTests.swift */; };
+		3B74ECBC280BD90000C1C594 /* CicadaSwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74ECBB280BD90000C1C594 /* CicadaSwiftDemoUITests.swift */; };
+		3B74ECBE280BD90000C1C594 /* CicadaSwiftDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74ECBD280BD90000C1C594 /* CicadaSwiftDemoUITestsLaunchTests.swift */; };
+		3B74ECCC280C081A00C1C594 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74ECCB280C081900C1C594 /* R.generated.swift */; };
+		3B74ED0C280C2E2A00C1C594 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74ED0B280C2E2A00C1C594 /* Products.swift */; };
+		3B74ED0E280C2ED900C1C594 /* Deal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74ED0D280C2ED900C1C594 /* Deal.swift */; };
+		3B74ED10280C2F1B00C1C594 /* FakeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74ED0F280C2F1B00C1C594 /* FakeData.swift */; };
+		3B74ED13280C370F00C1C594 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74ED12280C370F00C1C594 /* UIColorExtension.swift */; };
+		3B74ED15280C3A1A00C1C594 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74ED14280C3A1A00C1C594 /* BaseViewController.swift */; };
+		3B74ED17280C3AC200C1C594 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74ED16280C3AC200C1C594 /* LoginViewController.swift */; };
+		3B74ED1B280C3CCF00C1C594 /* icon_pwd@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B74ED19280C3CCF00C1C594 /* icon_pwd@2x.png */; };
+		3B74ED1C280C3CCF00C1C594 /* icon_phone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B74ED1A280C3CCF00C1C594 /* icon_phone@2x.png */; };
+		3B74ED1E280C73FA00C1C594 /* icon_logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B74ED1D280C73F900C1C594 /* icon_logo@3x.png */; };
+		3B74ED20280C77A100C1C594 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74ED1F280C77A100C1C594 /* HomeViewController.swift */; };
+		3B74ED22280C77B100C1C594 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74ED21280C77B100C1C594 /* MineViewController.swift */; };
+		3B74ED27280C789100C1C594 /* icon_home@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B74ED23280C789100C1C594 /* icon_home@3x.png */; };
+		3B74ED28280C789100C1C594 /* icon_mineSelect@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B74ED24280C789100C1C594 /* icon_mineSelect@3x.png */; };
+		3B74ED29280C789100C1C594 /* icon_homeSelect@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B74ED25280C789100C1C594 /* icon_homeSelect@3x.png */; };
+		3B74ED2A280C789100C1C594 /* icon_mine@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B74ED26280C789100C1C594 /* icon_mine@3x.png */; };
+		3B74ED2D280C7CB000C1C594 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74ED2C280C7CB000C1C594 /* BannerView.swift */; };
+		3B74ED2F280C8DB600C1C594 /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74ED2E280C8DB600C1C594 /* ProductList.swift */; };
+		3B74ED31280F1A3D00C1C594 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74ED30280F1A3D00C1C594 /* DetailViewController.swift */; };
+		3B74ED33280FC0A000C1C594 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74ED32280FC0A000C1C594 /* Tab.swift */; };
+		3B74ED35280FEDA300C1C594 /* CommonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74ED34280FEDA300C1C594 /* CommonCell.swift */; };
+		3B74ED3728102D2D00C1C594 /* DealListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74ED3628102D2D00C1C594 /* DealListViewController.swift */; };
+		3B74ED3928102E9800C1C594 /* CommonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74ED3828102E9800C1C594 /* CommonList.swift */; };
+		3BA107862845FFC900EBF995 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA107852845FFC900EBF995 /* TestViewController.swift */; };
+		5223F8C4BAA5B7ED48947C5A /* Pods_CicadaSwiftDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 191B2595F4CAE43D26D8EF92 /* Pods_CicadaSwiftDemoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B74ECAE280BD90000C1C594 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B74EC8F280BD8F600C1C594 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B74EC96280BD8F600C1C594;
+			remoteInfo = CicadaSwiftDemo;
+		};
+		3B74ECB8280BD90000C1C594 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B74EC8F280BD8F600C1C594 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B74EC96280BD8F600C1C594;
+			remoteInfo = CicadaSwiftDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		191B2595F4CAE43D26D8EF92 /* Pods_CicadaSwiftDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CicadaSwiftDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35B60592F74409BC020C449A /* Pods-CicadaSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CicadaSwiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-CicadaSwiftDemo/Pods-CicadaSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3B74EC97280BD8F600C1C594 /* CicadaSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CicadaSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B74EC9A280BD8F600C1C594 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B74EC9C280BD8F600C1C594 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3B74EC9E280BD8F600C1C594 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B74ECA1280BD8F600C1C594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B74ECA3280BD8FF00C1C594 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B74ECA6280BD8FF00C1C594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B74ECA8280BD8FF00C1C594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B74ECAD280BD90000C1C594 /* CicadaSwiftDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CicadaSwiftDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B74ECB1280BD90000C1C594 /* CicadaSwiftDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CicadaSwiftDemoTests.swift; sourceTree = "<group>"; };
+		3B74ECB7280BD90000C1C594 /* CicadaSwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CicadaSwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B74ECBB280BD90000C1C594 /* CicadaSwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CicadaSwiftDemoUITests.swift; sourceTree = "<group>"; };
+		3B74ECBD280BD90000C1C594 /* CicadaSwiftDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CicadaSwiftDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B74ECCB280C081900C1C594 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		3B74ED0B280C2E2A00C1C594 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		3B74ED0D280C2ED900C1C594 /* Deal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deal.swift; sourceTree = "<group>"; };
+		3B74ED0F280C2F1B00C1C594 /* FakeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeData.swift; sourceTree = "<group>"; };
+		3B74ED12280C370F00C1C594 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		3B74ED14280C3A1A00C1C594 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		3B74ED16280C3AC200C1C594 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3B74ED19280C3CCF00C1C594 /* icon_pwd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_pwd@2x.png"; sourceTree = "<group>"; };
+		3B74ED1A280C3CCF00C1C594 /* icon_phone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_phone@2x.png"; sourceTree = "<group>"; };
+		3B74ED1D280C73F900C1C594 /* icon_logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_logo@3x.png"; sourceTree = "<group>"; };
+		3B74ED1F280C77A100C1C594 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3B74ED21280C77B100C1C594 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		3B74ED23280C789100C1C594 /* icon_home@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_home@3x.png"; sourceTree = "<group>"; };
+		3B74ED24280C789100C1C594 /* icon_mineSelect@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_mineSelect@3x.png"; sourceTree = "<group>"; };
+		3B74ED25280C789100C1C594 /* icon_homeSelect@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_homeSelect@3x.png"; sourceTree = "<group>"; };
+		3B74ED26280C789100C1C594 /* icon_mine@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_mine@3x.png"; sourceTree = "<group>"; };
+		3B74ED2C280C7CB000C1C594 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		3B74ED2E280C8DB600C1C594 /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
+		3B74ED30280F1A3D00C1C594 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3B74ED32280FC0A000C1C594 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		3B74ED34280FEDA300C1C594 /* CommonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonCell.swift; sourceTree = "<group>"; };
+		3B74ED3628102D2D00C1C594 /* DealListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealListViewController.swift; sourceTree = "<group>"; };
+		3B74ED3828102E9800C1C594 /* CommonList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonList.swift; sourceTree = "<group>"; };
+		3BA107852845FFC900EBF995 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		49D597AB1B706663D6DCB17C /* Pods-CicadaSwiftDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CicadaSwiftDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-CicadaSwiftDemoTests/Pods-CicadaSwiftDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4FC3A87A49185841250202FC /* Pods_CicadaSwiftDemo_CicadaSwiftDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CicadaSwiftDemo_CicadaSwiftDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52165656C3C675ECC0DF4C0D /* Pods-CicadaSwiftDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CicadaSwiftDemoTests.release.xcconfig"; path = "Target Support Files/Pods-CicadaSwiftDemoTests/Pods-CicadaSwiftDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		747634B252A80D15F959C540 /* Pods_CicadaSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CicadaSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC03DDBBD838A6452B637CB /* Pods-CicadaSwiftDemo-CicadaSwiftDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CicadaSwiftDemo-CicadaSwiftDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-CicadaSwiftDemo-CicadaSwiftDemoUITests/Pods-CicadaSwiftDemo-CicadaSwiftDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BF5AB4C40ABCDB0224B2985A /* Pods-CicadaSwiftDemo-CicadaSwiftDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CicadaSwiftDemo-CicadaSwiftDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-CicadaSwiftDemo-CicadaSwiftDemoUITests/Pods-CicadaSwiftDemo-CicadaSwiftDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BFD1EC584F83D3BCD2B5956C /* Pods-CicadaSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CicadaSwiftDemo.release.xcconfig"; path = "Target Support Files/Pods-CicadaSwiftDemo/Pods-CicadaSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B74EC94280BD8F600C1C594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0349AE32A0923427B2DC9A5B /* Pods_CicadaSwiftDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B74ECAA280BD90000C1C594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5223F8C4BAA5B7ED48947C5A /* Pods_CicadaSwiftDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B74ECB4280BD90000C1C594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1591DA4EFE3E397CE0D00C7B /* Pods_CicadaSwiftDemo_CicadaSwiftDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06536DABCAA7ADF2FC7AA0C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35B60592F74409BC020C449A /* Pods-CicadaSwiftDemo.debug.xcconfig */,
+				BFD1EC584F83D3BCD2B5956C /* Pods-CicadaSwiftDemo.release.xcconfig */,
+				BF5AB4C40ABCDB0224B2985A /* Pods-CicadaSwiftDemo-CicadaSwiftDemoUITests.debug.xcconfig */,
+				ABC03DDBBD838A6452B637CB /* Pods-CicadaSwiftDemo-CicadaSwiftDemoUITests.release.xcconfig */,
+				49D597AB1B706663D6DCB17C /* Pods-CicadaSwiftDemoTests.debug.xcconfig */,
+				52165656C3C675ECC0DF4C0D /* Pods-CicadaSwiftDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3B74EC8E280BD8F600C1C594 = {
+			isa = PBXGroup;
+			children = (
+				3B74ECCB280C081900C1C594 /* R.generated.swift */,
+				3B74EC99280BD8F600C1C594 /* CicadaSwiftDemo */,
+				3B74ECB0280BD90000C1C594 /* CicadaSwiftDemoTests */,
+				3B74ECBA280BD90000C1C594 /* CicadaSwiftDemoUITests */,
+				3B74EC98280BD8F600C1C594 /* Products */,
+				06536DABCAA7ADF2FC7AA0C9 /* Pods */,
+				3FC59E0F171503FD8769159E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B74EC98280BD8F600C1C594 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B74EC97280BD8F600C1C594 /* CicadaSwiftDemo.app */,
+				3B74ECAD280BD90000C1C594 /* CicadaSwiftDemoTests.xctest */,
+				3B74ECB7280BD90000C1C594 /* CicadaSwiftDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B74EC99280BD8F600C1C594 /* CicadaSwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3B74ED2B280C7C8C00C1C594 /* Component */,
+				3B74ED18280C3CCF00C1C594 /* Resource */,
+				3B74ED11280C36DE00C1C594 /* Extensions */,
+				3B74ED0A280C2E1600C1C594 /* Model */,
+				3B74EC9A280BD8F600C1C594 /* AppDelegate.swift */,
+				3B74EC9C280BD8F600C1C594 /* SceneDelegate.swift */,
+				3B74EC9E280BD8F600C1C594 /* ViewController.swift */,
+				3B74ECA0280BD8F600C1C594 /* Main.storyboard */,
+				3B74ECA3280BD8FF00C1C594 /* Assets.xcassets */,
+				3B74ECA5280BD8FF00C1C594 /* LaunchScreen.storyboard */,
+				3B74ECA8280BD8FF00C1C594 /* Info.plist */,
+				3B74ED14280C3A1A00C1C594 /* BaseViewController.swift */,
+				3BA107852845FFC900EBF995 /* TestViewController.swift */,
+				3B74ED16280C3AC200C1C594 /* LoginViewController.swift */,
+				3B74ED1F280C77A100C1C594 /* HomeViewController.swift */,
+				3B74ED21280C77B100C1C594 /* MineViewController.swift */,
+				3B74ED30280F1A3D00C1C594 /* DetailViewController.swift */,
+				3B74ED3628102D2D00C1C594 /* DealListViewController.swift */,
+			);
+			path = CicadaSwiftDemo;
+			sourceTree = "<group>";
+		};
+		3B74ECB0280BD90000C1C594 /* CicadaSwiftDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B74ECB1280BD90000C1C594 /* CicadaSwiftDemoTests.swift */,
+			);
+			path = CicadaSwiftDemoTests;
+			sourceTree = "<group>";
+		};
+		3B74ECBA280BD90000C1C594 /* CicadaSwiftDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B74ECBB280BD90000C1C594 /* CicadaSwiftDemoUITests.swift */,
+				3B74ECBD280BD90000C1C594 /* CicadaSwiftDemoUITestsLaunchTests.swift */,
+			);
+			path = CicadaSwiftDemoUITests;
+			sourceTree = "<group>";
+		};
+		3B74ED0A280C2E1600C1C594 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B74ED0B280C2E2A00C1C594 /* Products.swift */,
+				3B74ED0D280C2ED900C1C594 /* Deal.swift */,
+				3B74ED0F280C2F1B00C1C594 /* FakeData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B74ED11280C36DE00C1C594 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3B74ED12280C370F00C1C594 /* UIColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3B74ED18280C3CCF00C1C594 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3B74ED23280C789100C1C594 /* icon_home@3x.png */,
+				3B74ED25280C789100C1C594 /* icon_homeSelect@3x.png */,
+				3B74ED26280C789100C1C594 /* icon_mine@3x.png */,
+				3B74ED24280C789100C1C594 /* icon_mineSelect@3x.png */,
+				3B74ED1D280C73F900C1C594 /* icon_logo@3x.png */,
+				3B74ED19280C3CCF00C1C594 /* icon_pwd@2x.png */,
+				3B74ED1A280C3CCF00C1C594 /* icon_phone@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		3B74ED2B280C7C8C00C1C594 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				3B74ED2C280C7CB000C1C594 /* BannerView.swift */,
+				3B74ED2E280C8DB600C1C594 /* ProductList.swift */,
+				3B74ED32280FC0A000C1C594 /* Tab.swift */,
+				3B74ED34280FEDA300C1C594 /* CommonCell.swift */,
+				3B74ED3828102E9800C1C594 /* CommonList.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		3FC59E0F171503FD8769159E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				747634B252A80D15F959C540 /* Pods_CicadaSwiftDemo.framework */,
+				4FC3A87A49185841250202FC /* Pods_CicadaSwiftDemo_CicadaSwiftDemoUITests.framework */,
+				191B2595F4CAE43D26D8EF92 /* Pods_CicadaSwiftDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B74EC96280BD8F600C1C594 /* CicadaSwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B74ECC1280BD90000C1C594 /* Build configuration list for PBXNativeTarget "CicadaSwiftDemo" */;
+			buildPhases = (
+				5DAD56EE7E8947C5504A4E20 /* [CP] Check Pods Manifest.lock */,
+				3B74ECCA280C038200C1C594 /* ShellScript */,
+				3B74EC93280BD8F600C1C594 /* Sources */,
+				3B74EC94280BD8F600C1C594 /* Frameworks */,
+				3B74EC95280BD8F600C1C594 /* Resources */,
+				55952438C71948257DD64D32 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CicadaSwiftDemo;
+			productName = CicadaSwiftDemo;
+			productReference = 3B74EC97280BD8F600C1C594 /* CicadaSwiftDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B74ECAC280BD90000C1C594 /* CicadaSwiftDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B74ECC4280BD90000C1C594 /* Build configuration list for PBXNativeTarget "CicadaSwiftDemoTests" */;
+			buildPhases = (
+				9EC352F244C12A4F20B64B7E /* [CP] Check Pods Manifest.lock */,
+				3B74ECA9280BD90000C1C594 /* Sources */,
+				3B74ECAA280BD90000C1C594 /* Frameworks */,
+				3B74ECAB280BD90000C1C594 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B74ECAF280BD90000C1C594 /* PBXTargetDependency */,
+			);
+			name = CicadaSwiftDemoTests;
+			productName = CicadaSwiftDemoTests;
+			productReference = 3B74ECAD280BD90000C1C594 /* CicadaSwiftDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B74ECB6280BD90000C1C594 /* CicadaSwiftDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B74ECC7280BD90000C1C594 /* Build configuration list for PBXNativeTarget "CicadaSwiftDemoUITests" */;
+			buildPhases = (
+				AAA154D23D6E04BBFA588582 /* [CP] Check Pods Manifest.lock */,
+				3B74ECB3280BD90000C1C594 /* Sources */,
+				3B74ECB4280BD90000C1C594 /* Frameworks */,
+				3B74ECB5280BD90000C1C594 /* Resources */,
+				C7B01F22FFFE6B1A402CFEC4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B74ECB9280BD90000C1C594 /* PBXTargetDependency */,
+			);
+			name = CicadaSwiftDemoUITests;
+			productName = CicadaSwiftDemoUITests;
+			productReference = 3B74ECB7280BD90000C1C594 /* CicadaSwiftDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B74EC8F280BD8F600C1C594 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3B74EC96280BD8F600C1C594 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					3B74ECAC280BD90000C1C594 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 3B74EC96280BD8F600C1C594;
+					};
+					3B74ECB6280BD90000C1C594 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 3B74EC96280BD8F600C1C594;
+					};
+				};
+			};
+			buildConfigurationList = 3B74EC92280BD8F600C1C594 /* Build configuration list for PBXProject "CicadaSwiftDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B74EC8E280BD8F600C1C594;
+			productRefGroup = 3B74EC98280BD8F600C1C594 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B74EC96280BD8F600C1C594 /* CicadaSwiftDemo */,
+				3B74ECAC280BD90000C1C594 /* CicadaSwiftDemoTests */,
+				3B74ECB6280BD90000C1C594 /* CicadaSwiftDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B74EC95280BD8F600C1C594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B74ED27280C789100C1C594 /* icon_home@3x.png in Resources */,
+				3B74ED2A280C789100C1C594 /* icon_mine@3x.png in Resources */,
+				3B74ECA7280BD8FF00C1C594 /* LaunchScreen.storyboard in Resources */,
+				3B74ED1E280C73FA00C1C594 /* icon_logo@3x.png in Resources */,
+				3B74ED29280C789100C1C594 /* icon_homeSelect@3x.png in Resources */,
+				3B74ED1C280C3CCF00C1C594 /* icon_phone@2x.png in Resources */,
+				3B74ECA4280BD8FF00C1C594 /* Assets.xcassets in Resources */,
+				3B74ED28280C789100C1C594 /* icon_mineSelect@3x.png in Resources */,
+				3B74ED1B280C3CCF00C1C594 /* icon_pwd@2x.png in Resources */,
+				3B74ECA2280BD8F600C1C594 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B74ECAB280BD90000C1C594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B74ECB5280BD90000C1C594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B74ECCA280C038200C1C594 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"",
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n\n";
+		};
+		55952438C71948257DD64D32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CicadaSwiftDemo/Pods-CicadaSwiftDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CicadaSwiftDemo/Pods-CicadaSwiftDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CicadaSwiftDemo/Pods-CicadaSwiftDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DAD56EE7E8947C5504A4E20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CicadaSwiftDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EC352F244C12A4F20B64B7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CicadaSwiftDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAA154D23D6E04BBFA588582 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CicadaSwiftDemo-CicadaSwiftDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7B01F22FFFE6B1A402CFEC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CicadaSwiftDemo-CicadaSwiftDemoUITests/Pods-CicadaSwiftDemo-CicadaSwiftDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CicadaSwiftDemo-CicadaSwiftDemoUITests/Pods-CicadaSwiftDemo-CicadaSwiftDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CicadaSwiftDemo-CicadaSwiftDemoUITests/Pods-CicadaSwiftDemo-CicadaSwiftDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B74EC93280BD8F600C1C594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B74EC9F280BD8F600C1C594 /* ViewController.swift in Sources */,
+				3B74EC9B280BD8F600C1C594 /* AppDelegate.swift in Sources */,
+				3B74ED3728102D2D00C1C594 /* DealListViewController.swift in Sources */,
+				3B74ED0C280C2E2A00C1C594 /* Products.swift in Sources */,
+				3B74ED13280C370F00C1C594 /* UIColorExtension.swift in Sources */,
+				3B74ED35280FEDA300C1C594 /* CommonCell.swift in Sources */,
+				3B74ED0E280C2ED900C1C594 /* Deal.swift in Sources */,
+				3B74ED15280C3A1A00C1C594 /* BaseViewController.swift in Sources */,
+				3B74EC9D280BD8F600C1C594 /* SceneDelegate.swift in Sources */,
+				3B74ED20280C77A100C1C594 /* HomeViewController.swift in Sources */,
+				3BA107862845FFC900EBF995 /* TestViewController.swift in Sources */,
+				3B74ECCC280C081A00C1C594 /* R.generated.swift in Sources */,
+				3B74ED17280C3AC200C1C594 /* LoginViewController.swift in Sources */,
+				3B74ED10280C2F1B00C1C594 /* FakeData.swift in Sources */,
+				3B74ED33280FC0A000C1C594 /* Tab.swift in Sources */,
+				3B74ED2F280C8DB600C1C594 /* ProductList.swift in Sources */,
+				3B74ED31280F1A3D00C1C594 /* DetailViewController.swift in Sources */,
+				3B74ED2D280C7CB000C1C594 /* BannerView.swift in Sources */,
+				3B74ED3928102E9800C1C594 /* CommonList.swift in Sources */,
+				3B74ED22280C77B100C1C594 /* MineViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B74ECA9280BD90000C1C594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B74ECB2280BD90000C1C594 /* CicadaSwiftDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B74ECB3280BD90000C1C594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B74ECBE280BD90000C1C594 /* CicadaSwiftDemoUITestsLaunchTests.swift in Sources */,
+				3B74ECBC280BD90000C1C594 /* CicadaSwiftDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B74ECAF280BD90000C1C594 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B74EC96280BD8F600C1C594 /* CicadaSwiftDemo */;
+			targetProxy = 3B74ECAE280BD90000C1C594 /* PBXContainerItemProxy */;
+		};
+		3B74ECB9280BD90000C1C594 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B74EC96280BD8F600C1C594 /* CicadaSwiftDemo */;
+			targetProxy = 3B74ECB8280BD90000C1C594 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B74ECA0280BD8F600C1C594 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B74ECA1280BD8F600C1C594 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B74ECA5280BD8FF00C1C594 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B74ECA6280BD8FF00C1C594 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B74ECBF280BD90000C1C594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B74ECC0280BD90000C1C594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B74ECC2280BD90000C1C594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35B60592F74409BC020C449A /* Pods-CicadaSwiftDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WCRCKC56AH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CicadaSwiftDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zl.CicadaSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B74ECC3280BD90000C1C594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFD1EC584F83D3BCD2B5956C /* Pods-CicadaSwiftDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WCRCKC56AH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CicadaSwiftDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zl.CicadaSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B74ECC5280BD90000C1C594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49D597AB1B706663D6DCB17C /* Pods-CicadaSwiftDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WCRCKC56AH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zl.CicadaSwiftDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CicadaSwiftDemo.app/CicadaSwiftDemo";
+			};
+			name = Debug;
+		};
+		3B74ECC6280BD90000C1C594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52165656C3C675ECC0DF4C0D /* Pods-CicadaSwiftDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WCRCKC56AH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zl.CicadaSwiftDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CicadaSwiftDemo.app/CicadaSwiftDemo";
+			};
+			name = Release;
+		};
+		3B74ECC8280BD90000C1C594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF5AB4C40ABCDB0224B2985A /* Pods-CicadaSwiftDemo-CicadaSwiftDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WCRCKC56AH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zl.CicadaSwiftDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CicadaSwiftDemo;
+			};
+			name = Debug;
+		};
+		3B74ECC9280BD90000C1C594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABC03DDBBD838A6452B637CB /* Pods-CicadaSwiftDemo-CicadaSwiftDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WCRCKC56AH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zl.CicadaSwiftDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CicadaSwiftDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B74EC92280BD8F600C1C594 /* Build configuration list for PBXProject "CicadaSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B74ECBF280BD90000C1C594 /* Debug */,
+				3B74ECC0280BD90000C1C594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B74ECC1280BD90000C1C594 /* Build configuration list for PBXNativeTarget "CicadaSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B74ECC2280BD90000C1C594 /* Debug */,
+				3B74ECC3280BD90000C1C594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B74ECC4280BD90000C1C594 /* Build configuration list for PBXNativeTarget "CicadaSwiftDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B74ECC5280BD90000C1C594 /* Debug */,
+				3B74ECC6280BD90000C1C594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B74ECC7280BD90000C1C594 /* Build configuration list for PBXNativeTarget "CicadaSwiftDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B74ECC8280BD90000C1C594 /* Debug */,
+				3B74ECC9280BD90000C1C594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B74EC8F280BD8F600C1C594 /* Project object */;
+}

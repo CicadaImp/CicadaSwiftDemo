@@ -1,0 +1,6 @@
+framework module Pods_CicadaSwiftDemo {
+  umbrella header "Pods-CicadaSwiftDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

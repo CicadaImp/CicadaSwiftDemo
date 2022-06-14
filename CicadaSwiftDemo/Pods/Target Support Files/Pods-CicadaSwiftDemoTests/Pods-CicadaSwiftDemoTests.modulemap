@@ -1,0 +1,6 @@
+framework module Pods_CicadaSwiftDemoTests {
+  umbrella header "Pods-CicadaSwiftDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
