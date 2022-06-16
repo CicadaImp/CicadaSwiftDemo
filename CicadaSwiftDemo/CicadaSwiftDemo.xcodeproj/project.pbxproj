@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0349AE32A0923427B2DC9A5B /* Pods_CicadaSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747634B252A80D15F959C540 /* Pods_CicadaSwiftDemo.framework */; };
 		1591DA4EFE3E397CE0D00C7B /* Pods_CicadaSwiftDemo_CicadaSwiftDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC3A87A49185841250202FC /* Pods_CicadaSwiftDemo_CicadaSwiftDemoUITests.framework */; };
+		3B62425B285B10AE008BCB2F /* ObservableGenerateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B62425A285B10AE008BCB2F /* ObservableGenerateViewController.swift */; };
 		3B74EC9B280BD8F600C1C594 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74EC9A280BD8F600C1C594 /* AppDelegate.swift */; };
 		3B74EC9D280BD8F600C1C594 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74EC9C280BD8F600C1C594 /* SceneDelegate.swift */; };
 		3B74EC9F280BD8F600C1C594 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74EC9E280BD8F600C1C594 /* ViewController.swift */; };
@@ -65,6 +66,7 @@
 /* Begin PBXFileReference section */
 		191B2595F4CAE43D26D8EF92 /* Pods_CicadaSwiftDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CicadaSwiftDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B60592F74409BC020C449A /* Pods-CicadaSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CicadaSwiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-CicadaSwiftDemo/Pods-CicadaSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3B62425A285B10AE008BCB2F /* ObservableGenerateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableGenerateViewController.swift; sourceTree = "<group>"; };
 		3B74EC97280BD8F600C1C594 /* CicadaSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CicadaSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B74EC9A280BD8F600C1C594 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B74EC9C280BD8F600C1C594 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -152,6 +154,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		3B624259285B1001008BCB2F /* RxPractice */ = {
+			isa = PBXGroup;
+			children = (
+				3B62425A285B10AE008BCB2F /* ObservableGenerateViewController.swift */,
+			);
+			path = RxPractice;
+			sourceTree = "<group>";
+		};
 		3B74EC8E280BD8F600C1C594 = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +188,7 @@
 		3B74EC99280BD8F600C1C594 /* CicadaSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3B624259285B1001008BCB2F /* RxPractice */,
 				3B74ED2B280C7C8C00C1C594 /* Component */,
 				3B74ED18280C3CCF00C1C594 /* Resource */,
 				3B74ED11280C36DE00C1C594 /* Extensions */,
@@ -552,6 +563,7 @@
 				3B74ECCC280C081A00C1C594 /* R.generated.swift in Sources */,
 				3B74ED17280C3AC200C1C594 /* LoginViewController.swift in Sources */,
 				3B74ED10280C2F1B00C1C594 /* FakeData.swift in Sources */,
+				3B62425B285B10AE008BCB2F /* ObservableGenerateViewController.swift in Sources */,
 				3B74ED33280FC0A000C1C594 /* Tab.swift in Sources */,
 				3B74ED2F280C8DB600C1C594 /* ProductList.swift in Sources */,
 				3B74ED31280F1A3D00C1C594 /* DetailViewController.swift in Sources */,

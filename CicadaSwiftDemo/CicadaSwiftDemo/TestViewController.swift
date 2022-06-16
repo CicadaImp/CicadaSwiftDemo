@@ -4,9 +4,6 @@
 //
 //  Created by 知了 on 2022/5/31.
 //
-//我是02修改
-//02修改：第二次尝试
-
 import UIKit
 import RxSwift
 import RxCocoa
@@ -16,46 +13,36 @@ class TestViewController: BaseViewController {
     lazy var tableView = UITableView()
     let reuserId = "cellId"
     let infoViewModel = InfoViewModel()
+    //  DisposeBag的作用是：Rx在视图控制器或者其持有者将要销毁的时候，自动释放掉绑在它上面的资源，类似于NotificationCenter的removeObserver
     let disposeBag = DisposeBag()
-    
-    //我是02修改，修改test文件
-    //公共修改01
-    //公共修改02。。。
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
         // Do any additional setup after loading the view.
         setupUI()
+        //rx.items(cellIdentifier:)：Rx基于cellForRow的封装，传统的还需要有numberOfRowsInSection，使用Rx后就不需要了，Rx帮我们完成了相关的工作
         infoViewModel.infoArray.bind(to: tableView.rx.items(cellIdentifier: reuserId)){
             row, model, cell in
             cell.textLabel?.text = "\(model.name) age = \(model.age), row =\(row)"
         }.disposed(by: disposeBag)
 
+        //rx.modelSelected：Rx基于didSelectRow的封装
         tableView.rx.modelSelected(InfoModel.self).subscribe { model in
             print("点击了\(model.name),\(model.age)")
         } onError: { error in
             print("error:\(error)")
         } onCompleted: {
-            
+            print("")
         } onDisposed: {
-            
-        }
-
-//        tableView.rx.modelSelected(InfoModel.self).subscribe { (model) in
-//            print("点击了\(model.name),\(model.age)")
-//        } .disposed(by: disposeBag)
-
-//        infoViewModel.infoArray
-//        infoViewModel.infoArray.
-//        tableView.rx.
+            print("onDisposed")
+        }.disposed(by: disposeBag)
     }
     
-
-
 }
 
 extension TestViewController {
-    //我是01修改了。。。
     func setupUI() {
         view.addSubview(tableView)
         tableView.frame = view.bounds
