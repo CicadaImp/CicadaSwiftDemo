@@ -11,6 +11,7 @@
 		1591DA4EFE3E397CE0D00C7B /* Pods_CicadaSwiftDemo_CicadaSwiftDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC3A87A49185841250202FC /* Pods_CicadaSwiftDemo_CicadaSwiftDemoUITests.framework */; };
 		3B62425B285B10AE008BCB2F /* ObservableGenerateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B62425A285B10AE008BCB2F /* ObservableGenerateViewController.swift */; };
 		3B62425D285B1358008BCB2F /* HigherOrderFunctionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B62425C285B1358008BCB2F /* HigherOrderFunctionViewController.swift */; };
+		3B62425F285C4EC3008BCB2F /* SubjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B62425E285C4EC3008BCB2F /* SubjectsViewController.swift */; };
 		3B74EC9B280BD8F600C1C594 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74EC9A280BD8F600C1C594 /* AppDelegate.swift */; };
 		3B74EC9D280BD8F600C1C594 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74EC9C280BD8F600C1C594 /* SceneDelegate.swift */; };
 		3B74EC9F280BD8F600C1C594 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74EC9E280BD8F600C1C594 /* ViewController.swift */; };
@@ -69,6 +70,7 @@
 		35B60592F74409BC020C449A /* Pods-CicadaSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CicadaSwiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-CicadaSwiftDemo/Pods-CicadaSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		3B62425A285B10AE008BCB2F /* ObservableGenerateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableGenerateViewController.swift; sourceTree = "<group>"; };
 		3B62425C285B1358008BCB2F /* HigherOrderFunctionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HigherOrderFunctionViewController.swift; sourceTree = "<group>"; };
+		3B62425E285C4EC3008BCB2F /* SubjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsViewController.swift; sourceTree = "<group>"; };
 		3B74EC97280BD8F600C1C594 /* CicadaSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CicadaSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B74EC9A280BD8F600C1C594 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B74EC9C280BD8F600C1C594 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 			children = (
 				3B62425A285B10AE008BCB2F /* ObservableGenerateViewController.swift */,
 				3B62425C285B1358008BCB2F /* HigherOrderFunctionViewController.swift */,
+				3B62425E285C4EC3008BCB2F /* SubjectsViewController.swift */,
 			);
 			path = RxPractice;
 			sourceTree = "<group>";
@@ -558,6 +561,7 @@
 				3B74ED0C280C2E2A00C1C594 /* Products.swift in Sources */,
 				3B74ED13280C370F00C1C594 /* UIColorExtension.swift in Sources */,
 				3B74ED35280FEDA300C1C594 /* CommonCell.swift in Sources */,
+				3B62425F285C4EC3008BCB2F /* SubjectsViewController.swift in Sources */,
 				3B74ED0E280C2ED900C1C594 /* Deal.swift in Sources */,
 				3B74ED15280C3A1A00C1C594 /* BaseViewController.swift in Sources */,
 				3B74EC9D280BD8F600C1C594 /* SceneDelegate.swift in Sources */,
