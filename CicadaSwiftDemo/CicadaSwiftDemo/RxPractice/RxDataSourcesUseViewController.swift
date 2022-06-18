@@ -72,7 +72,19 @@ struct SectionDataModel {
     }
 }
 
-//使用RxDataSources的唯一限制是，section中使用的每个类型都必须符合IdentifiableType和Equatable协议, IdentifiableType声明一个唯一的标识符（在同一具体类型的对象中是唯一的）
+
+/**
+ https://cocoapods.org/pods/RxDataSources
+ RxDataSources 提供了两种特殊的数据源类型，它们自动处理绑定数据源中的动画更改：RxTableViewSectionedAnimatedDataSource和RxCollectionViewSectionedAnimatedDataSource.
+
+ 要使用两个动画数据源之一，您必须在采取一些额外步骤：
+
+ SectionOfCustomData 需要符合AnimatableSectionModelType
+ 您的数据模型必须符合
+ IdentifiableType：协议identity提供的IdentifiableType必须是表示模型实例的不可变标识符。例如，对于Car模型，您可能希望使用汽车plateNumber作为其身份。
+ Equatable：符合Equatable有助于RxDataSources确定哪些单元格已更改，因此它只能为这些特定单元格设置动画。这意味着，更改模型的任何Car属性都会触发该单元格的动画重新加载。
+
+ */
 extension SectionDataModel: IdentifiableType {
     typealias Identity = String
     var identity: Identity {
