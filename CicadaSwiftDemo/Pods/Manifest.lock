@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (5.6.0)
+  - Differentiator (5.0.0)
   - Dollar (9.0.0)
   - Kingfisher (7.2.1)
   - MonkeyKing (2.2.1)
@@ -9,6 +10,10 @@ PODS:
   - RxCocoa (6.5.0):
     - RxRelay (= 6.5.0)
     - RxSwift (= 6.5.0)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
   - RxRelay (6.5.0):
     - RxSwift (= 6.5.0)
   - RxSwift (6.5.0)
@@ -22,6 +27,7 @@ DEPENDENCIES:
   - MonkeyKing (~> 2.2.1)
   - R.swift
   - RxCocoa (~> 6.5.0)
+  - RxDataSources (~> 5.0.0)
   - RxSwift (~> 6.5.0)
   - SnapKit (~> 5.6.0)
   - SwiftyJSON (~> 5.0.1)
@@ -29,12 +35,14 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
+    - Differentiator
     - Dollar
     - Kingfisher
     - MonkeyKing
     - R.swift
     - R.swift.Library
     - RxCocoa
+    - RxDataSources
     - RxRelay
     - RxSwift
     - SnapKit
@@ -42,17 +50,19 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 0c07058209f211e3d32824f8e0766d7c44ac83b3
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
   Dollar: 2fc9bdeeb2d3ae1f251461803240d5c93829ee0c
   Kingfisher: 7c084bebf7d548c623ad41bcf765fb200efed369
   MonkeyKing: 196838a3b4c97e95915f3e7046fb2d6044f06101
   R.swift: ec98ff71c4ab2f6fd01dd077e5afd15e63a4834c
   R.swift.Library: 0fc583cb55a99e28901299cc451614cad1161962
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: dd2d0873bc9044a9bbcf476fb75441e3b2aff64c
+PODFILE CHECKSUM: 0ac4b35268356f52084042812b38a06f53450331
 
 COCOAPODS: 1.11.3

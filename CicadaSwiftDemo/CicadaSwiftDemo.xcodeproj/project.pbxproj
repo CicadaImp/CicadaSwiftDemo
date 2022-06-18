@@ -14,6 +14,7 @@
 		3B62425F285C4EC3008BCB2F /* SubjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B62425E285C4EC3008BCB2F /* SubjectsViewController.swift */; };
 		3B624261285C6073008BCB2F /* ControlUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B624260285C6073008BCB2F /* ControlUseViewController.swift */; };
 		3B624263285DA285008BCB2F /* TableViewUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B624262285DA284008BCB2F /* TableViewUseViewController.swift */; };
+		3B624265285DB1D9008BCB2F /* RxDataSourcesUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B624264285DB1D9008BCB2F /* RxDataSourcesUseViewController.swift */; };
 		3B74EC9B280BD8F600C1C594 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74EC9A280BD8F600C1C594 /* AppDelegate.swift */; };
 		3B74EC9D280BD8F600C1C594 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74EC9C280BD8F600C1C594 /* SceneDelegate.swift */; };
 		3B74EC9F280BD8F600C1C594 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74EC9E280BD8F600C1C594 /* ViewController.swift */; };
@@ -75,6 +76,7 @@
 		3B62425E285C4EC3008BCB2F /* SubjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsViewController.swift; sourceTree = "<group>"; };
 		3B624260285C6073008BCB2F /* ControlUseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlUseViewController.swift; sourceTree = "<group>"; };
 		3B624262285DA284008BCB2F /* TableViewUseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUseViewController.swift; sourceTree = "<group>"; };
+		3B624264285DB1D9008BCB2F /* RxDataSourcesUseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxDataSourcesUseViewController.swift; sourceTree = "<group>"; };
 		3B74EC97280BD8F600C1C594 /* CicadaSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CicadaSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B74EC9A280BD8F600C1C594 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B74EC9C280BD8F600C1C594 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 				3B62425E285C4EC3008BCB2F /* SubjectsViewController.swift */,
 				3B624260285C6073008BCB2F /* ControlUseViewController.swift */,
 				3B624262285DA284008BCB2F /* TableViewUseViewController.swift */,
+				3B624264285DB1D9008BCB2F /* RxDataSourcesUseViewController.swift */,
 			);
 			path = RxPractice;
 			sourceTree = "<group>";
@@ -582,6 +585,7 @@
 				3B74ED33280FC0A000C1C594 /* Tab.swift in Sources */,
 				3B62425D285B1358008BCB2F /* HigherOrderFunctionViewController.swift in Sources */,
 				3B74ED2F280C8DB600C1C594 /* ProductList.swift in Sources */,
+				3B624265285DB1D9008BCB2F /* RxDataSourcesUseViewController.swift in Sources */,
 				3B74ED31280F1A3D00C1C594 /* DetailViewController.swift in Sources */,
 				3B74ED2D280C7CB000C1C594 /* BannerView.swift in Sources */,
 				3B74ED3928102E9800C1C594 /* CommonList.swift in Sources */,
