@@ -13,6 +13,7 @@
 		3B62425D285B1358008BCB2F /* HigherOrderFunctionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B62425C285B1358008BCB2F /* HigherOrderFunctionViewController.swift */; };
 		3B62425F285C4EC3008BCB2F /* SubjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B62425E285C4EC3008BCB2F /* SubjectsViewController.swift */; };
 		3B624261285C6073008BCB2F /* ControlUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B624260285C6073008BCB2F /* ControlUseViewController.swift */; };
+		3B624263285DA285008BCB2F /* TableViewUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B624262285DA284008BCB2F /* TableViewUseViewController.swift */; };
 		3B74EC9B280BD8F600C1C594 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74EC9A280BD8F600C1C594 /* AppDelegate.swift */; };
 		3B74EC9D280BD8F600C1C594 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74EC9C280BD8F600C1C594 /* SceneDelegate.swift */; };
 		3B74EC9F280BD8F600C1C594 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74EC9E280BD8F600C1C594 /* ViewController.swift */; };
@@ -73,6 +74,7 @@
 		3B62425C285B1358008BCB2F /* HigherOrderFunctionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HigherOrderFunctionViewController.swift; sourceTree = "<group>"; };
 		3B62425E285C4EC3008BCB2F /* SubjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsViewController.swift; sourceTree = "<group>"; };
 		3B624260285C6073008BCB2F /* ControlUseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlUseViewController.swift; sourceTree = "<group>"; };
+		3B624262285DA284008BCB2F /* TableViewUseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUseViewController.swift; sourceTree = "<group>"; };
 		3B74EC97280BD8F600C1C594 /* CicadaSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CicadaSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B74EC9A280BD8F600C1C594 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B74EC9C280BD8F600C1C594 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 				3B62425C285B1358008BCB2F /* HigherOrderFunctionViewController.swift */,
 				3B62425E285C4EC3008BCB2F /* SubjectsViewController.swift */,
 				3B624260285C6073008BCB2F /* ControlUseViewController.swift */,
+				3B624262285DA284008BCB2F /* TableViewUseViewController.swift */,
 			);
 			path = RxPractice;
 			sourceTree = "<group>";
@@ -571,6 +574,7 @@
 				3B74EC9D280BD8F600C1C594 /* SceneDelegate.swift in Sources */,
 				3B74ED20280C77A100C1C594 /* HomeViewController.swift in Sources */,
 				3BA107862845FFC900EBF995 /* TestViewController.swift in Sources */,
+				3B624263285DA285008BCB2F /* TableViewUseViewController.swift in Sources */,
 				3B74ECCC280C081A00C1C594 /* R.generated.swift in Sources */,
 				3B74ED17280C3AC200C1C594 /* LoginViewController.swift in Sources */,
 				3B74ED10280C2F1B00C1C594 /* FakeData.swift in Sources */,
