@@ -16,7 +16,7 @@ class ViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let homeVC = TestViewController()
+        let homeVC = SocketUseViewController()
         homeVC.tabBarItem.image = R.image.icon_home()
         homeVC.tabBarItem.selectedImage = R.image.icon_homeSelect()?.withRenderingMode(.alwaysOriginal)
         homeVC.tabBarItem.title = "测试"
