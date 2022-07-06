@@ -1,5 +1,6 @@
 ${PODS_ROOT}/Target Support Files/Pods-CicadaSwiftDemo/Pods-CicadaSwiftDemo-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/CicadaPodTest/CicadaPodTest.framework
 ${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework
 ${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework
 ${BUILT_PRODUCTS_DIR}/Dollar/Dollar.framework

@@ -1,0 +1,6 @@
+framework module CicadaPodTest {
+  umbrella header "CicadaPodTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

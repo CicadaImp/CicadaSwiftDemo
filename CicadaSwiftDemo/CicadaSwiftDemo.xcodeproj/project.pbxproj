@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		0349AE32A0923427B2DC9A5B /* Pods_CicadaSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747634B252A80D15F959C540 /* Pods_CicadaSwiftDemo.framework */; };
 		1591DA4EFE3E397CE0D00C7B /* Pods_CicadaSwiftDemo_CicadaSwiftDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC3A87A49185841250202FC /* Pods_CicadaSwiftDemo_CicadaSwiftDemoUITests.framework */; };
+		3B07324428758A570055F3A3 /* RxDataSourcesUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07324328758A570055F3A3 /* RxDataSourcesUseViewController.swift */; };
 		3B62425B285B10AE008BCB2F /* ObservableGenerateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B62425A285B10AE008BCB2F /* ObservableGenerateViewController.swift */; };
 		3B62425D285B1358008BCB2F /* HigherOrderFunctionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B62425C285B1358008BCB2F /* HigherOrderFunctionViewController.swift */; };
 		3B62425F285C4EC3008BCB2F /* SubjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B62425E285C4EC3008BCB2F /* SubjectsViewController.swift */; };
 		3B624261285C6073008BCB2F /* ControlUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B624260285C6073008BCB2F /* ControlUseViewController.swift */; };
 		3B624263285DA285008BCB2F /* TableViewUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B624262285DA284008BCB2F /* TableViewUseViewController.swift */; };
-		3B624265285DB1D9008BCB2F /* RxDataSourcesUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B624264285DB1D9008BCB2F /* RxDataSourcesUseViewController.swift */; };
 		3B624267285DD601008BCB2F /* RxNetUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B624266285DD601008BCB2F /* RxNetUseViewController.swift */; };
 		3B62426A28606366008BCB2F /* SocketUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B62426928606366008BCB2F /* SocketUseViewController.swift */; };
 		3B62426C28608116008BCB2F /* ServiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B62426B28608116008BCB2F /* ServiceApp.swift */; };
@@ -76,12 +76,12 @@
 /* Begin PBXFileReference section */
 		191B2595F4CAE43D26D8EF92 /* Pods_CicadaSwiftDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CicadaSwiftDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B60592F74409BC020C449A /* Pods-CicadaSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CicadaSwiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-CicadaSwiftDemo/Pods-CicadaSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3B07324328758A570055F3A3 /* RxDataSourcesUseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxDataSourcesUseViewController.swift; sourceTree = "<group>"; };
 		3B62425A285B10AE008BCB2F /* ObservableGenerateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableGenerateViewController.swift; sourceTree = "<group>"; };
 		3B62425C285B1358008BCB2F /* HigherOrderFunctionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HigherOrderFunctionViewController.swift; sourceTree = "<group>"; };
 		3B62425E285C4EC3008BCB2F /* SubjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsViewController.swift; sourceTree = "<group>"; };
 		3B624260285C6073008BCB2F /* ControlUseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlUseViewController.swift; sourceTree = "<group>"; };
 		3B624262285DA284008BCB2F /* TableViewUseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUseViewController.swift; sourceTree = "<group>"; };
-		3B624264285DB1D9008BCB2F /* RxDataSourcesUseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxDataSourcesUseViewController.swift; sourceTree = "<group>"; };
 		3B624266285DD601008BCB2F /* RxNetUseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxNetUseViewController.swift; sourceTree = "<group>"; };
 		3B62426928606366008BCB2F /* SocketUseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketUseViewController.swift; sourceTree = "<group>"; };
 		3B62426B28608116008BCB2F /* ServiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceApp.swift; sourceTree = "<group>"; };
@@ -181,8 +181,8 @@
 				3B62425C285B1358008BCB2F /* HigherOrderFunctionViewController.swift */,
 				3B62425E285C4EC3008BCB2F /* SubjectsViewController.swift */,
 				3B624260285C6073008BCB2F /* ControlUseViewController.swift */,
+				3B07324328758A570055F3A3 /* RxDataSourcesUseViewController.swift */,
 				3B624262285DA284008BCB2F /* TableViewUseViewController.swift */,
-				3B624264285DB1D9008BCB2F /* RxDataSourcesUseViewController.swift */,
 				3B624266285DD601008BCB2F /* RxNetUseViewController.swift */,
 			);
 			path = RxPractice;
@@ -614,6 +614,7 @@
 				3B62425F285C4EC3008BCB2F /* SubjectsViewController.swift in Sources */,
 				3B74ED0E280C2ED900C1C594 /* Deal.swift in Sources */,
 				3B74ED15280C3A1A00C1C594 /* BaseViewController.swift in Sources */,
+				3B07324428758A570055F3A3 /* RxDataSourcesUseViewController.swift in Sources */,
 				3B74EC9D280BD8F600C1C594 /* SceneDelegate.swift in Sources */,
 				3B74ED20280C77A100C1C594 /* HomeViewController.swift in Sources */,
 				3B62426E28657FFC008BCB2F /* CicadaData.proto in Sources */,
@@ -627,7 +628,6 @@
 				3B74ED33280FC0A000C1C594 /* Tab.swift in Sources */,
 				3B62425D285B1358008BCB2F /* HigherOrderFunctionViewController.swift in Sources */,
 				3B74ED2F280C8DB600C1C594 /* ProductList.swift in Sources */,
-				3B624265285DB1D9008BCB2F /* RxDataSourcesUseViewController.swift in Sources */,
 				3B74ED31280F1A3D00C1C594 /* DetailViewController.swift in Sources */,
 				3B74ED2D280C7CB000C1C594 /* BannerView.swift in Sources */,
 				3B74ED3928102E9800C1C594 /* CommonList.swift in Sources */,

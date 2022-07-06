@@ -11,12 +11,13 @@ import SwiftyJSON
 import SnapKit
 import Kingfisher
 import Rswift
+import CicadaPodTest
 
 class ViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let homeVC = SocketUseViewController()
+        let homeVC = RxDataSourcesUseViewController()
         homeVC.tabBarItem.image = R.image.icon_home()
         homeVC.tabBarItem.selectedImage = R.image.icon_homeSelect()?.withRenderingMode(.alwaysOriginal)
         homeVC.tabBarItem.title = "测试"

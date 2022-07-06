@@ -1,5 +1,9 @@
 PODS:
   - Alamofire (5.6.0)
+  - CicadaPodTest (0.2.0):
+    - RxCocoa (~> 6.5.0)
+    - RxDataSources (~> 5.0.0)
+    - RxSwift (~> 6.5.0)
   - CocoaAsyncSocket (7.6.5)
   - Differentiator (5.0.0)
   - Dollar (9.0.0)
@@ -24,6 +28,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 5.6.0)
+  - CicadaPodTest (~> 0.2.0)
   - CocoaAsyncSocket (~> 7.6.5)
   - Dollar
   - Kingfisher (~> 7.2.1)
@@ -37,6 +42,8 @@ DEPENDENCIES:
   - SwiftyJSON (~> 5.0.1)
 
 SPEC REPOS:
+  https://gitee.com/cicadajz/cicada.git:
+    - CicadaPodTest
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - CocoaAsyncSocket
@@ -56,6 +63,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 0c07058209f211e3d32824f8e0766d7c44ac83b3
+  CicadaPodTest: c2131900ddeb54e2a718bd68111d720de6fa1b17
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
   Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
   Dollar: 2fc9bdeeb2d3ae1f251461803240d5c93829ee0c
@@ -71,6 +79,6 @@ SPEC CHECKSUMS:
   SwiftProtobuf: 6ef3f0e422ef90d6605ca20b21a94f6c1324d6b3
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: 2b935a77e32f98b628f448939fb87bce8eb260d2
+PODFILE CHECKSUM: 91288d27124eb2de6bbc100ef890444908b4e755
 
 COCOAPODS: 1.11.3

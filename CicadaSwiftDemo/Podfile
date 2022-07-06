@@ -1,4 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
+source 'https://gitee.com/cicadajz/cicada.git'
 
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
@@ -20,6 +21,7 @@ pod 'RxCocoa', '~> 6.5.0'
 pod 'RxDataSources', '~> 5.0.0'
 pod 'CocoaAsyncSocket', '~> 7.6.5'
 pod 'SwiftProtobuf', '~> 1.19.0'
+pod 'CicadaPodTest', '~> 0.2.0'
 
   target 'CicadaSwiftDemoTests' do
     inherit! :search_paths
